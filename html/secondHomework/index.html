@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "loginForm" style = "margin: 5px auto; width: 300px">
+        <h3 style = "margin: 5px auto; width: 173px;">Novell Services Login</h3>
+        <table>
+            <tr>
+                <td><label for = "username">Username: </label></td>
+                <td><input type = "text" id = "username" placeholder = "John"></td>
+            </tr>
+            <tr>
+                <td><label for = "password">Password: </label></td>
+                <td><input type = "text" id = "password" placeholder = "******"><br></td>
+            </tr>
+            <tr>
+                <td><label for = "city">City of<br>employment: </label></td>
+                <td><input type = "text" id = "city" placeholder = "Yerevan"></td>
+            </tr>
+            <tr>
+                <td><label for = "selecting">Web server: </label></td>
+                <td>
+                    <select id = "selecting">
+                        <option value="">--Choose a server--</option>
+                        <option value = "iis">IIS</option>
+                        <option value = "nginx">nginx</option>
+                        <option value = "lighttpd">lighttpd</option>
+                        <option value = "google">Google Web Server</option>
+                        <option value = "resin">Resin</option>
+                        <option value = "cherokee">Cherokee</option>
+                        <option value = "rootage">Rootage</option>
+                        <option value = "thttpd">THTTPD</option>
+                        <option value = "openServer">Open Server</option>
+                        <option value = "h2o">H2O</option>
+                        <option value = "nghttp2">nghttp2</option>
+                        <option value = "go">Go HTTP</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan = "4"><p>Please secify<br>your role: </p></td>
+                <td>
+                    <input type = "radio" id = "role" name = "roleUser" value = "admin">
+                    <label for = "role">Admin</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "radio" id = "role" name = "roleUser" value = "engineer">
+                    <label for = "role">Engineer</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "radio" id = "role" name = "roleUser" value = "manager">
+                    <label for = "role">Manager</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "radio" id = "role" name = "roleUser" value = "guest">
+                    <label for = "contactChoice1">Guest</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan = "3"><p>Single Sign-on<br>to the folowing: </p></td>
+                <td>
+                    <input type = "checkbox" id = "signOn" value = "mail">
+                    <label for = "signOn">Mail</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "checkbox" id = "signOn" value = "payroll">
+                    <label for = "signOn">Payroll</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "checkbox" id = "signOn" value = "selfService">
+                    <label for = "signOn">Self-service</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <div style = "margin: 0 auto; width: 105px;">
+                        <input type="button" value="Login">
+                        <input type="button" value="Reset">
+                    </div>
+                </td>
+            </tr>
+        </table>        
+    </form>
+</body>
+</html>
