@@ -1,0 +1,157 @@
+body {
+    background-image: url(../../images/thirdHomework/image-back.jpg);
+}
+
+header {
+    overflow: hidden;
+    width: 80%;
+    margin: 10px auto;
+}
+
+header p {
+    float: left;
+    color: white;
+    font-size: 20px;
+}
+
+header p:hover {
+    cursor: alias;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+ul li:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+#get-started {
+    margin-right: 0px;
+    margin-left: 20px;
+    border: 0.5px solid white;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#get-started:hover {
+    background-color: green;
+    border-color: black;
+    color: black;
+}
+
+#site-content {
+    margin: 120px auto;
+    width: 70%;
+}
+
+#container-left input {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #26EE76;
+    border: 0;
+    border-radius: 12px;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+}
+
+#container-left {
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+#container-left h1 {
+    font-size: 40px;
+}
+
+#container-left p {
+    font-size: 15px;
+}
+
+.text-links {
+    text-decoration: none;
+    color: gray;
+}
+
+#container-right {
+    width: 35%;
+    float: right;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 0 15px black;
+}
+
+#container-right input {
+    width: 76%;
+    background-color: lightgray;
+    display: block;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0px;
+}
+
+#container-right input:focus {
+    outline: none;
+}
+
+#container-right h1, #container-right select {
+    margin: 15px auto;
+}
+
+#container-right h1 {
+    width: 75%;
+}
+
+#container-right select {
+    display: block;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    cursor: pointer;
+    border: 0px;
+}
+
+#container-right select:focus {
+    outline: none;
+}
+
+#container-right input[type = "button"] {
+    width: 80%;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    padding: 8px 0px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+@media (max-width: 880px) {
+    #container-left, #container-right {
+        width: 80%;
+        margin: 15px auto;
+        float: none;
+    }
+
+    #container-right {
+        margin-top: 50px;
+    }
+}
