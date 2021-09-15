@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+    overflow: hidden;
+}
+
+main {
+    width: max-content;
+    background-color: lightseagreen;
+    margin: 40px auto;
+    padding: 5px;
+    width: 255px;
+}
+
+#result-div {
+    width: calc(100% - 15px);
+    height: 50px;
+    background-color: white;
+    margin: 5px;
+    border-bottom: 3px solid gray;
+    text-align: end;
+    font-size: 22px;
+    font-style: oblique;
+    padding-top: 0.1px;
+    padding-right: 5px;
+}
+
+button {
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+    font-size: 18px;
+    font-style: oblique;
+    margin: 5px;
+    background-color: white;
+    border: 0px;
+    border-bottom: 3px solid gray;
+}
+
+.operators {
+    background-color: khaki;
+}
+
+#reset-button {
+    background-color: lightcoral;
+}
